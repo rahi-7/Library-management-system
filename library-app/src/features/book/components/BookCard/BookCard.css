@@ -1,0 +1,78 @@
+.book-card {
+    width: 250px;
+    height: 400px;
+    background-color: var(--BACKGROUND-SECONDARY);
+    border-radius: 12px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: var(--BOX-SHADOW);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.book-card-cover {
+    height: 45%;
+}
+
+.book-card-info {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+}
+
+.book-card-title {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3rem;
+}
+
+.book-card-author {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.1rem;
+}
+
+.book-card-description {
+    width: 100%;
+    max-height: 70%;
+    font-size: .75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.book-card-loan-button {
+    width: 90%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 12px;
+}
+
+.available {
+    background-color: var(--SECONDARY);
+}
+
+.unavailable {
+    background-color: #CB4C4E;
+}
+
+.checkout:hover {
+    cursor: pointer;
+    background-color: var(--BACKGROUND-SECONDARY);
+    border: 2px solid var(--SECONDARY);
+}
+
+.checkin:hover {
+    cursor: pointer;
+    background-color: var(--BACKGROUND-SECONDARY);
+    border: 2px solid #CB4C4E;
+}

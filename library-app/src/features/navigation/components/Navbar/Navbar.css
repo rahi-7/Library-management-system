@@ -1,0 +1,76 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: var(--SECONDARY);
+    color: var(--TEXT);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.navbar-logo-section {
+    width: 25%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: var(--TEXT);
+    & h3{font-weight: 900;}
+}
+
+.navbar-option-section {
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-option {
+    height: 100%;
+    width: fit-content;
+    padding: 12px;
+    color: var(--TEXT);
+    border-radius: 12px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.navbar-option:hover {
+    background-color: var(--PRIMARY);
+    color: var(--TEXT-SECONDARY);
+}
+
+.navbar-link {
+    text-decoration: none;
+}
+
+.navbar-search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--TEXT);
+    border-radius: 22px;
+    padding: 4px;
+    margin-right: 16px;
+}
+
+.navbar-search-input {
+    height: 2.5rem;
+    background-color: transparent;
+    border: none;
+    padding-left: 16px;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: var(--TEXT);
+    opacity: 1;
+}
+
+.navbar-search-input:focus {
+    outline: none;
+}

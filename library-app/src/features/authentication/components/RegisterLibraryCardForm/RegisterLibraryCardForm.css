@@ -1,0 +1,27 @@
+.register-library-card-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-library-card-text {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.register-library-modal-button {
+    background-color: var(--BACKGROUND-SECONDARY);
+    width: 50%;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 2px solid var(--PRIMARY);
+    cursor: pointer;
+}
+
+.register-library-modal-button:hover {
+    color: var(--PRIMARY);
+    box-shadow: var(--BOX-SHADOW);
+}
